@@ -3,3 +3,6 @@ Cat
 Rat
 Dog
 Bird
+Cow
+Chicken
+Duck
