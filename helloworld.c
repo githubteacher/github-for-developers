@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+int not_main()
 {
 
 	printf("This is a hello world message");
