@@ -1,0 +1,11 @@
+In computing, syslog is a widely used standard for message logging. It permits separation of the software that generates messages, the system that stores them, and the software that reports and analyzes them.
+
+Computer system designers may use syslog for system management and security auditing as well as general informational, analysis, and debugging messages. A wide variety of devices, such as printers and routers, and message receivers across many platforms use the syslog standard. This permits the consolidation of logging data from different types of systems in a central repository. Implementations of syslog exist for many operating systems.
+
+Each message is labeled with a facility code, and assigned a severity label. The facility code indicates the software type of the application that generated the message.
+
+The destination of messages may be directed to various destinations, tuned by facility and severity, including console, files, remote syslog servers, or relays.
+
+Most implementations provide a command line utility, often called logger, as well as a link library, to send messages to the log.
+
+Some implementations include reporting programs for filtering and displaying of syslog messages.
