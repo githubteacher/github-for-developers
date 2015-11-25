@@ -8,3 +8,6 @@ int imain()
 	return 0;
 }
 
+int new()
+{}
+
