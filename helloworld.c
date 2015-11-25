@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int not_main()
+int imain()
 {
 
 	printf("This is a hello world message");
@@ -8,3 +8,5 @@ int not_main()
 	return 0;
 }
 
+int new()
+{}
