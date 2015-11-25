@@ -1,0 +1,167 @@
+
+  509  git clone https://github.com/githubteacher/github-for-developers.git
+  510  cd github-for-developers/
+  511  ls
+  512  git log -1
+  513  git status
+  514  git branch -a
+  515  git branch patrick-demo
+  516  git status
+  517  git branch
+  518  git checkout patrick-demo
+  519  git status
+  520  git checkout master 
+  521  git branch -d patrick-demo 
+  522  git checkout -b patrick-demo
+  523  new-cpp-files.sh Shape
+  524  git status
+  525  ls
+  526  git add Shape.hh
+  527  git status
+  528  git add .
+  529  git status
+  530  git commit
+  531  git status
+  532  touch a.md
+  533  git status
+  534  rm a.md 
+  535  git status
+  536  ls -al
+  537  git checkout master 
+  538  ls -al
+  539  git checkout patrick-demo
+  540  ls -al
+  541  git push origin -u patrick-demo 
+  542  sublime Shape.hh 
+  543  git status
+  544  git commit -a -m "start declaring first class"
+  545  git status
+  546  git push
+  547  git checkout master 
+  548  git pull
+  549  git branch -a
+  550  git pull
+  551  git branch -d patrick-demo 
+  552  git pull
+  553  git branch -a
+  554  git checkout akshayurdh-demo-v1
+  555  git checkout master 
+  556  git merge akshayurdh-demo-v1 
+  557  git push
+  558  git branch -d akshayurdh-demo-v1 
+  559  git pull
+  560  git checkout -b release-1
+  561  sublime Shape.hh
+  562  git status
+  563  git commit -am"want a more esoteric shape
+
+Longer commit message using the -m flag"
+  564  git checkout -b release-2 master 
+  565  git lga -2
+  566  sublime Shape.hh 
+  567  git status
+  568  git diff
+  569  git status
+  570  git add Shape.hh
+  571  git diff
+  572  git diff --staged
+  573  sublime Shape.hh
+  574  git diff --staged 
+  575  git diff
+  576  git diff HEAD 
+  577  git status
+  578  git commit -m"wanted a new shape"
+  579  git status
+  580  git diff
+  581  git commit -am"make this new class somewhat useful"
+  582  git log
+  583  git log --oneline 
+  584  git log --oneline --graph 
+  585  git log --oneline --graph --decorate
+  586  git log --oneline --graph --decorate --all
+  587  git push -u origin release-2 
+  588  git checkout release-1
+  589  git push -u origin release-1
+  590  cd ..
+  591  rm -rf github-for-developers/
+  592  git clone https://github.com/githubteacher/github-for-developers.git
+  593  cd github-for-developers/
+  594  git checkout release-1
+  595  git checkout release-2
+  596  git log --all --graph --decorate --oneline 
+  597  git checkout release-1
+  598  git merge release-2
+  599  sublime Shape.hh
+  600  git status
+  601  git add Shape.hh
+  602  git status
+  603  git commit
+  604  git push
+  605  git log --oneline --graph --decorate --all -10
+  606  git checkout -b nirmalya-merge-conflict-example
+  607  git rebase b259386
+  608  git rebase --abort 
+  609  git status
+  610  echo my-magnum-opus.txt
+  611  touch my-magnum-opus-txt
+  612  git status
+  613  git add my-magnum-opus-txt
+  614  git commit -m"gotta start somewhere"
+  615  git push
+  616  git push -u origin nirmalya-merge-conflict-example 
+  617  git pull
+  618  git pull origin nirmalya-merge-conflict-example
+  619  git push
+  620  git push -u origin nirmalya-merge-conflict-example 
+  621  echo "it was the best of times..." >> my-magnum-opus-txt 
+  622  git status
+  623  git commit -am"first draft"
+  624  git pull
+  625  sublime my-magnum-opus-txt 
+  626  git status
+  627  git add my-magnum-opus-txt
+  628  git commit
+  629  git st
+  630  git log -2
+  631  git checkout -b demo-undoing-things 4605ac897156ce2ab90c661bd0ba4e3592d76122
+  632  git log -2
+  633  git show
+  634  sublime my-magnum-opus-txt 
+  635  git status
+  636  git commit -a --amend 
+  637  git log -1
+  638  git show
+  639  git log -2
+  640  git log -5
+  641  git reset af7bdf2d3ce32851f5c371d19fb3bfc0b73235f3
+  642  git status
+  643  git log -3
+  644  git status
+  645  git add my-magnum-opus-txt Shape.hh
+  646  git status
+  647  git commit -m"these two ought to be changed together"
+  648  git log -2
+  649  git reset --hard af7bdf2d3ce32851f5c371d19fb3bfc0b73235f3
+  650  git log -2
+  651  ls
+  652  git reflog 
+  653  git reset --hard ac13b68
+  654  git log -5
+  655  echo my-magnum-opus-txt 
+  656  cat my-magnum-opus-txt 
+  657  git status
+  658  echo "second line" >> my-magnum-opus-txt 
+  659  git status
+  660  git checkout -- my-magnum-opus-txt
+  661  git status
+  662  cat my-magnum-opus-txt 
+  663  git checkout master -- Shape.hh
+  664  git status
+  665  git reset --hard 
+  666  git status
+  667  git diff master 
+  668  git diff master -- Shape.hh
+  669  cat Shape.hh
+  670  git checkout master -- Shape.hh
+  671  cat Shape.hh
+  672  history > command-line-history.txt
