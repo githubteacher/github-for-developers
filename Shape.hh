@@ -7,8 +7,8 @@ namespace Shape {
 using namespace std;
 
 
-class Rhombus {
-
+class Circle {
+    int radius();
 };
 
 
