@@ -7,6 +7,11 @@ namespace Shape {
 using namespace std;
 
 
+class Triangle {
+
+};
+
+
 } // namespace Shape
 
 
