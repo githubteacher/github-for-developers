@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+int imain()
 {
 
 	printf("This is a hello world message");
