@@ -1,1 +1,2 @@
 Hello. This is first line of fixup file
+Hi. This is second line of fixup file
