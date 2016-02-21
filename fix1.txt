@@ -1,0 +1,3 @@
+Hello. This is first line of fixup file
+Hi. This is modified second line of fixup file
+Ola. This is the third line of fixup file
