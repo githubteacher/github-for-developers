@@ -4,3 +4,4 @@ Is
 A
 New
 File.
+Added a new line to newfile.txt form testing_fixup
