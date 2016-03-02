@@ -2,6 +2,5 @@ Hi
 This
 Is
 A
-New
-File.
-added some new line to newfile.txt form testing_fixup and checked fixup
+New file
+deleted existing line and added a new line in it's place
