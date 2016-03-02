@@ -2,5 +2,5 @@ Hi
 This
 Is
 A
-New
-File.
+New file
+deleted existing line and added a new line in it's place
